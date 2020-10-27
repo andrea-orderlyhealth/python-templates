@@ -1,6 +1,6 @@
 import pytest
 
-from src.user import UserServiceFactory
+from user_service.user import UserServiceFactory
 
 factory = UserServiceFactory.create_factory({})
 
