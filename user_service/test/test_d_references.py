@@ -1,5 +1,5 @@
 
-from test.test_b_user_service import USER_SERVICE
+from user_service.test.test_b_user_service import USER_SERVICE
 
 
 def test_basic():

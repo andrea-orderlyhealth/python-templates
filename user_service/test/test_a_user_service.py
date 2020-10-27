@@ -1,5 +1,5 @@
 
-from src.user import UserServiceFactory
+from user_service.user import UserServiceFactory
 
 FACTORY = UserServiceFactory.create_factory({})
 USER_SERVICE = FACTORY.create_service()

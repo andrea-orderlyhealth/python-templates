@@ -1,5 +1,5 @@
 
-from test.test_b_user_service import add_user, USER_SERVICE, ID_1, NAME_1, MOCK_USER_LISTENER
+from user_service.test.test_b_user_service import add_user, USER_SERVICE, ID_1, NAME_1, MOCK_USER_LISTENER
 
 
 def test_remove():

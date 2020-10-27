@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Mapping, Any
 
-from src.abstract_user import User, UserListener, UserService
+from user_service.abstract_user import User, UserListener, UserService
 
 
 class UserServiceFactory(ABC):

@@ -1,6 +1,6 @@
 
-from src.user import UserServiceFactory
-from test.mock_user_listener import MockUserListener
+from user_service.user import UserServiceFactory
+from user_service.test.mock_user_listener import MockUserListener
 
 FACTORY = UserServiceFactory.create_factory({})
 USER_SERVICE = FACTORY.create_service()

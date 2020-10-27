@@ -1,6 +1,6 @@
 from typing import List
 
-from src.abstract_user import UserListener, User
+from user_service.abstract_user import UserListener, User
 
 
 class MockUserListener(UserListener):
